@@ -1,0 +1,83 @@
+.instruction-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 140px;
+  left: 60px;
+}
+.instruction-card {
+  width: 380px;
+  height: 438px;
+  border-radius: 69px;
+  opacity: 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px;
+  border: #8bad1d 2px solid;
+}
+.card-num {
+  gap: 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px 20px 20px 5px;
+  opacity: 0px;
+  text-align: center;
+  align-self: center;
+}
+.card-1 {
+  background-color: #ffbc0b;
+  box-shadow: 0px 5.52px 0px 0px #d29901;
+}
+.card-2 {
+  background-color: #a6cd25;
+  box-shadow: 0px 5.52px 0px 0px #8bad1d;
+}
+.card-3 {
+  background-color: #fb993d;
+  box-shadow: 0px 5.52px 0px 0px #c56204;
+}
+.card-count {
+  font-family: Nunito;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  top: -200px;
+  left: 100px;
+}
+.main-instructions {
+  color: #11aec6;
+  font-family: Nunito;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  width: 252px;
+  margin: 0px;
+}
+.card-comb {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: stretch;
+}
+.sub-instructions {
+  color: #a6c930;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  width: 252px;
+  line-height: 32.74px;
+  text-align: center;
+  margin: 0px;
+}

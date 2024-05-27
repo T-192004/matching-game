@@ -1,0 +1,11 @@
+.img {
+  /* Vector */
+  position: absolute;
+  left: 86.98%;
+  right: 10.1%;
+  top: 26.11%;
+  bottom: 68.28%;
+
+  background: #eebf00;
+  transform: rotate(1.79deg);
+}

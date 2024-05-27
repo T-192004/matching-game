@@ -1,0 +1,14 @@
+.icon {
+  opacity: 0px;
+  box-shadow: 0px 2.64px 11.33px 0px #fb83a7;
+  width: 40px;
+  height: 40px;
+  color: #fb83a7;
+}
+.pink-border {
+  width: 173.12px;
+  height: 221px;
+  opacity: 0px;
+  box-shadow: -7px -5px 17.8px 0px #ebebeb;
+  box-shadow: 3px 4px 9.4px 0px #ebebeb4f;
+}

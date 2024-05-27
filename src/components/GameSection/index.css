@@ -1,0 +1,30 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 300px;
+}
+.cards-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.card-btn {
+  margin: 10px;
+  border: none;
+}
+.score {
+  color: #ffffff;
+  font-family: 'Nuirito';
+  font-weight: bolder;
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  text-align: center;
+}
